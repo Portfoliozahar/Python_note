@@ -48,7 +48,8 @@ def read_notes():
         print('Не найдено.')
     else:
         for note in notes:
-            print(f'ID: {note["id"]}, Заголовок: {note["title"]}, Дата создания: {note["data"]}')
+            print(f'ID: {note["id"]}  Заголовок: {note["title"]}, Дата создания: {note["data"]}\n{note["body"]}\n')
+
 
 
 def edit_note():
